@@ -4,7 +4,7 @@ phases:
  install:
   runtime-versions:
      java: corretto11
-   commands:
+  commands:
      - echo Entering install phase...
      - echo Nothing to do in the install phase...
  pre_build:
@@ -20,7 +20,6 @@ phases:
    commands:
      - echo Entering post_build phase...
      - echo Build completed on date
-
 artifacts:
   files:
     - webgoat-server/target/webgoat-server-8.0-SNAPSHOT.jar
