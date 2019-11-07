@@ -1,10 +1,10 @@
-version: 0.1
+version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      java: openjdk11
-   commands:
+ install:
+   runtime-versions:
+    java: openjdk11
+    commands:
      - echo Entering install phase...
      - echo Nothing to do in the install phase...
  pre_build:
